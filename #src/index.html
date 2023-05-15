@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+	@@include('_head.html',{
+	"title":"Главная"
+	})
+	<body>
+		<div class="wrapper">
+			@@include('_header.html',{})
+			<main class="page">
+				<div class="page-main">
+					
+					<div class="main-body">
+						<div class="main-body__icons"  data-da=".menu__body,768,0">
+							<div class="body-icon"><a href="#"><img src="./img/icons/facebook.svg" alt="no pic"></a></div>
+							<div class="body-icon"><a href="#"><img src="./img/icons/twitter.svg" alt="no pic"></a></div>
+							<div class="body-icon"><a href="#"><img src="./img/icons/instagram.svg" alt="no pic"></a></div>
+						</div>	
+						<div class="main-body__title">
+							<h2 class="body-subtitle">EXPLORE</h2>
+							<h1 class="body-title">Norway</h1>
+						</div>
+						<div class="dotts"></div>
+					<div class="slider-quality__pagging">
+							<div class="swiper-pagination-bullet"></div>
+						</div>	
+					</div>
+					<div class="slider _swiper">
+						<div class="slider-count slider__slide _ibg"><img src="./img/icons/bg/Rectangle1.jpg" alt="no pic"></div>
+						<div class="slider-count slider__slide _ibg"><img src="./img/icons/bg/Rectangle2.jpg" alt="no pic"></div>
+						<div class="slider-count slider__slide _ibg"><img src="./img/icons/bg/Rectangle3.jpeg" alt="no pic"></div>
+						<div class="slider-count slider__slide _ibg"><img src="./img/icons/bg/Rectangle4.jpg" alt="no pic"></div>
+					</div>
+						
+					
+				
+				</div>
+			</main>
+			@@include('_footer.html',{})
+		</div>
+		@@include('_popup.html',{})
+		@@include('_js.html',{})
+	</body>
+</html>
